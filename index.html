@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Dividing Fractions</title>
+  </head>
+  <body>
+    <script>
+      function checkType(){
+        var numberText = document.getElementById("passwordBox");
+        var number = numberText.value;
+        if(number == "5/3"){
+          alert("Correct! You may now move on.");
+          return true;
+        }
+        else{
+          alert("Incorrect! Please try again.");
+          return false;
+        }
+      }
+    </script>
+    <style>
+      h1{
+        margin:0;
+      }
+      p{
+        margin:0;
+      }
+      .header{
+        background-color:blue;
+        font-size:50px;
+        padding:30px;
+        text-align:center;
+      }
+      .text{
+        background-color:cyan;
+        font-size:25px;
+        padding:50px;
+        text-align:center;
+      }
+    </style>
+    <h1 class="header">
+       Math: The Unexplored Ocean: Dividing Fractions
+    </h1>
+    <p class="text">
+      If you were paying attention to our last lesson, learning how to divide fractions should be a piece of cake for you.
+      There is a rule that helps us understand the procedure. The bigger the denominator, and the smaller the numerator, the smaller the fraction.
+      How we divide fractions is simple. You take your division operator and switch it to multiplication, and then you take your second fraction and flip
+      the numerator and the denominator. For example, 4/2 ÷ 2/3 would be changed to 4/2 x 3/2. This example gives us 12/4, or 3.
+      Now let's test your skills with the fraction below:
+    </p>
+    <p>1/3 ÷ 1/5 = <input type="text" id="box" value=""/></p>
+    <a href="https://nikoskalnis.github.io/g5mathnew_unit/" onclick="checkType();">
+      Submit and Move On
+    </a>
+    <br/>
+    <a href="https://nikoskalnis.github.io/math-homepage/">
+      Quit(YOU WILL LOSE YOUR PROGRESS UPON CLICKING)
+    </a>
+  </body>
+</html>
